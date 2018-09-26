@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.carbono"
        name="[COLOR white]Carbono[/COLOR]"
-       version="1.0.1"
-       provider-name="anonimo">
+       version="0.0.1"
+       provider-name="Ambrosio">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -21,16 +21,16 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
-  
-  <extension point="xbmc.addon.repository" name="Mi repositorio">
-    <info>https://raw.githubusercontent.com/AddonCarbono/Repositorio/master/addons.xml</info>
-    <checksum>https://raw.githubusercontent.com/AddonCarbono/Repositorio/master/addons.xml.md5</checksum>
-    <datadir zip="true">https://raw.githubusercontent.com/AddonCarbono/Repositorio/master/</datadir>
+
+  <extension point="xbmc.addon.repository" name="Carbono repositorio">
+    <info>https://raw.githubusercontent.com/AddonCarbono/Repositorio/master/RepositorioCarbono/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/AddonCarbono/Repositorio/master/RepositorioCarbono/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/AddonCarbono/Repositorio/master/RepositorioCarbono/</datadir>
   </extension>
-	
+
   <extension point="xbmc.addon.metadata">
-    <summary>¡ATENCION!</summary>
-    <description>El contenido de este addon son solamente enlaces a distintas webs.</description>
+    <summary></summary>
+    <description></description>
     <platform>all</platform>
   </extension>
 </addon>
